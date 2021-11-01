@@ -1,0 +1,1 @@
+This is a project in The Odin Project course. It is a landing page for the different types of bicycles. I hope you enjoy!
