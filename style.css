@@ -6,7 +6,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 20px 200px;
     background-color: #1F2937;
     margin: 0;
     align-items: center;
@@ -35,9 +35,10 @@ a {
 .intro {
     display: flex;
     flex-direction: row;
-    padding: 50px 100px; 
+    padding: 50px 200px; 
     background-color: #1F2937;
     justify-content: space-between;
+    align-items: center;
 }
 
 .intro-left {
@@ -50,13 +51,13 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .intro-left p {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 5px 0; 
+    margin: 10px 0; 
 }
 
 .intro-left button {
@@ -80,21 +81,23 @@ a {
     font-weight: bolder;
     text-align: center;
     color: #1F2937;
+    padding: 15px 0;
 }
 
 .body-bottom {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 50px;
     padding: 0px 80px;
     justify-content: center;
     padding: 0 0 50px 0;
+    text-align: center;
 }
 
 
 .body-bottom p {
-    width: 150px;
-    font-size: 14px;
+    width: 200px;
+    font-size: 18px;
     font-weight: lighter;
 }
 
@@ -107,26 +110,28 @@ a {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 50px 160px;
+    padding: 100px 300px;
     color: #1F2937;
 }
 
 .quote h3 {
     font-weight: 200;
     font-size: 36px;
+    margin: 0
 }
 
 .quote p  {
     text-align: right;
     font-size: 32px;
     font-weight: 600;
+    margin: 0;
 }
 
 .call-to-action {
     display: flex;
     flex-direction: row;
-    margin: 50px 100px;
-    padding: 20px 80px;
+    margin: 80px 200px;
+    padding: 30px 80px;
     border-radius: 5px;
     background-color: #3882F6;
     color: white;
@@ -135,7 +140,7 @@ a {
 }
 
 .call-to-action-left {
-    width: 500px;
+    width: 800px;
 }
 
 .call-to-action-left h4 {
@@ -161,6 +166,6 @@ footer {
     text-align: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    font-size: 14px;
-    padding: 20px 0;
+    font-size: 18px;
+    padding: 30px 0;
 }
